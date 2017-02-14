@@ -1,44 +1,44 @@
 
-var headerText = "Bingo";
+var headerText = "Ski-Bingo";
 
-var footerText = "<a href='https://github.com/jeffehobbs/HTML5-bingo/' target='_blank'>Code available on github</a>";
+var footerText = "<a href='https://github.com/metaodi/bingo/' target='_blank'>Code available on github</a>";
 
-var winText = "Winner";
+var winText = "Gewinner";
 
 var clickSnd = new Audio("audio/click.mp3");
 
 var winSnd = new Audio("audio/win.mp3");
 
 var JSONBingo = {"squares": [
-        {"square": "one"},
-        {"square": "two"},
-        {"square": "three"},
-        {"square": "four"},
-        {"square": "five"},
-        {"square": "six"},
-        {"square": "seven"},
-        {"square": "eight"},
-        {"square": "nine"},
-        {"square": "ten"},
-        {"square": "eleven"},
-        {"square": "twelve"},
-        {"square": "thirteen"},
-        {"square": "fourteen"},
-        {"square": "fifteen"},
-        {"square": "sixteen"},
-        {"square": "seventeen"},
-        {"square": "eighteen"},
-        {"square": "nineteen"},
-        {"square": "twenty"},
-        {"square": "twenty one"},
-        {"square": "twenty two"},
-        {"square": "twenty three"},
-        {"square": "twenty four"},    	
-        {"square": "twenty five"},    	
-        {"square": "twenty six"},    	
-        {"square": "twenty seven"}, 
-        {"square": "twenty eight"},    	
-        {"square": "twenty nine"},    	
-        {"square": "thirty"}    	
+        {"square": "Fahrer fädelt ein"},
+        {"square": "junges Team"},
+        {"square": "Starttor"},
+        {"square": "gleiche H&ouml;he"},
+        {"square": "Vollgas"},
+        {"square": "Fehler"},
+        {"square": "muss gewinnen"},
+        {"square": "Engadin"},
+        {"square": "Titelverteidigung"},
+        {"square": "blaue Linie"},
+        {"square": "Techniker"},
+        {"square": "Titelverteidiger"},
+        {"square": "Weltmeister"},
+        {"square": "gute Ausgangslage"},
+        {"square": "Sonne"},
+        {"square": "Medaillenspiegel"},
+        {"square": "Thema Knieverletzung"},
+        {"square": "Radius"},
+        {"square": "Fahrer sagt im Interview &quot;wie gesagt&quot;"},
+        {"square": "Heim-WM"},
+        {"square": "Rennunterbruch"},
+        {"square": "Training"},
+        {"square": "wichtige Kurve"},
+        {"square": "Wind"},    	
+        {"square": "Jury"},    	
+        {"square": "eisige Piste"},    	
+        {"square": "kurze Ski"}, 
+        {"square": "Vertikale"},    	
+        {"square": "&quot;spektakul&auml;re Bilder&quot;"},    	
+        {"square": "Sturz"}    	
     ]
 };
